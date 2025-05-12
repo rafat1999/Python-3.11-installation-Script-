@@ -16,3 +16,7 @@ echo "Configure and Build"
 sudo ./configure --enable-optimizations
 sudo make -j$(nproc)
 sudo make altinstall
+
+echo "Check the version"
+
+python3.11 --version
